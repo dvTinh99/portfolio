@@ -37,7 +37,7 @@ export default defineNuxtConfig({
         // ...
       ],
       link: [
-        { rel: 'manifest', href: 'pwa/manifest.json' },
+        // { rel: 'manifest', href: 'pwa/manifest.json' },
         { rel: 'apple-touch-icon', href: 'pwa/icons/apple-touch-icon.png' },
       ],
     },
