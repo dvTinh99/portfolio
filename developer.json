@@ -117,11 +117,11 @@
     },
     "projects": {
         "1": {
-            "title": "_ui-animations",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/ui-animations2.png",
-            "tech": ["Flutter"],
-            "url": "https://github.com/"
+            "title": "_game-flappy-bird",
+            "description": "flappy bird game",
+            "img": "/images/projects/flappy-bird.png",
+            "tech": ["HTML", "CSS", "JS"],
+            "url": "https://dvtinh99.github.io/flappyBird"
         },
         "2": {
             "title": "_ai-resources",
