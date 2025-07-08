@@ -122,14 +122,14 @@
             <span class="text-white">// </span>
             <h3 v-html="config.about.sections[currentSection]?.title" class="text-white px-2"></h3>
             <span class="text-menu-text"> / </span>
-            <h3 v-html="config.about.sections[currentSection]?.info[folder].title" class="text-menu-text pl-2"></h3>
+            <h3 v-html="config.about.sections[currentSection]?.info[folder]?.title" class="text-menu-text pl-2"></h3>
         </div>
         
         <!-- text -->
         <div id="commented-text" class="flex h-full w-full lg:border-right overflow-hidden">
 
           <div class="w-full h-full ml-5 mr-10 lg:my-5 overflow-scroll">
-              <CommentedText :text="config.about.sections[currentSection]?.info[folder].description" />
+              <CommentedText :text="config.about.sections[currentSection]?.info[folder]?.description" />
           </div>
           
           <!-- scroll bar -->
@@ -275,7 +275,7 @@ import DevConfig from '~/developer.json';
 export default {
   data() {
     return {
-      currentSection: 'personal-info',
+      currentSection: 'professional-info',
       folder: 'bio',
       loading: true,
     }
