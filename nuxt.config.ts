@@ -7,7 +7,6 @@ const siteTitle = `${config.name} | ${config.role}`
  Usage: https://nuxt.com/docs/api/configuration/nuxt-config
  */
 export default defineNuxtConfig({
-  base: 'portfolio',
   compatibilityDate: '2025-02-28',
   devtools: { enabled: true },
   /**
@@ -42,6 +41,7 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', href: 'pwa/icons/apple-touch-icon.png' },
       ],
     },
+    baseURL: '/portfolio',
   },
 
   /**
