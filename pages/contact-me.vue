@@ -17,7 +17,7 @@
                 </div>
                 <div id="links">
                     <div v-for="(source, key) in contact.direct.sources" :key="key" class="link">
-                        <img :src="'/icons/' + key + '.svg'" alt="">
+                        <img :src="baseUrl + '/icons/' + key + '.svg'" alt="">
                         <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white"></a>
                     </div>
                 </div>
@@ -87,6 +87,7 @@ export default {
             name: '',
             email: '',
             message: '',
+            baseUrl: import.meta.env.BASE_URL
         }
     },
     setup() {

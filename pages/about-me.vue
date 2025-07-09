@@ -28,7 +28,7 @@
           <div v-for="(folder, key, index) in config.about.sections[currentSection]?.info" :key="key" class="grid grid-cols-2 items-center my-2 font-fira_regular text-menu-text" @click="focusCurrentFolder(folder)">
             <div class="flex col-span-2 hover:text-white hover:cursor-pointer">
               <img id="diple" src="/icons/diple.svg" alt="" :class="{ open: isOpen(folder.title)}">
-              <img :src="'/icons/folder' + (index+1) + '.svg'" alt="" class="mr-3">
+              <img :src="baseUrl + '/icons/folder' + (index+1) + '.svg'" alt="" class="mr-3">
               <p :id="folder.title" v-html="key" :class="{ active: isActive(folder.title)}"></p>
             </div>
             <div v-if="folder.files !== undefined" class="col-span-2">
@@ -47,7 +47,7 @@
         </div>
         <div id="contact-sources" class="hidden lg:flex lg:flex-col my-2">
           <div v-for="(source, key) in config.contacts.direct.sources" :key="key" class="flex items-center mb-2">
-            <img :src="'/icons/' + key + '.svg'" alt="" class="mx-4">
+            <img :src="baseUrl + '/icons/' + key + '.svg'" alt="" class="mx-4">
             <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white"></a>
           </div>
         </div>
@@ -94,7 +94,7 @@
         <!-- section content folders -->
         <div id="contacts" class="hidden">
           <div v-for="(source, key) in config.contacts.direct.sources" :key="key" class="flex items-center my-2">
-            <img :src="'/icons/' + key + '.svg'" alt="">
+            <img :src="baseUrl + '/icons/' + key + '.svg'" alt="">
             <a v-html="source" href="/" class="font-fira_retina text-menu-text hover:text-white ml-4"></a>
           </div>
         </div>
@@ -272,6 +272,8 @@
 
 <script>
 import DevConfig from '~/developer.json';
+const baseUrl = useBaseUrl();
+
 export default {
   data() {
     return {
