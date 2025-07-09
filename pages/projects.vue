@@ -82,7 +82,7 @@ const baseUrl = useBaseUrl();
 
 const config = ref(DevConfig)
 
-const techs = ['HTML', 'CSS', 'Vue', 'PHP', 'Laravel', 'Linux']
+const techs = ['HTML', 'CSS', 'Vue', 'Nuxt', 'PHP', 'Laravel', 'Wordpress', 'Linux']
 const filters = ref(['all'])
 const showFilters = ref(true)
 const projects = ref(config.value.projects)

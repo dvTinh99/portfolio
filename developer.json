@@ -147,6 +147,20 @@
             "img": "/images/projects/worldmap.png",
             "tech": ["PHP", "Laravel"],
             "url": "https://nhansohochieuminh.com/"
+        },
+        "5": {
+            "title": "PC e-commerce",
+            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "img": "/images/projects/worldmap.png",
+            "tech": ["PHP", "Wordpress"],
+            "url": "https://mscshop.vn"
+        },
+        "6": {
+            "title": "Course Online",
+            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "img": "/images/projects/worldmap.png",
+            "tech": ["Vue", "Nuxt"],
+            "url": "https://dvtinh99.github.io/course-online-nuxt/"
         }
     }
 }
