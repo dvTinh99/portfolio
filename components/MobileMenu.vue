@@ -28,7 +28,7 @@
         _projects
       </NuxtLink>
 
-      <NuxtLink id="nav-link-mobile" to="/contact-me" :class="{ active: isActive('/contact-me') }"
+      <NuxtLink id="nav-link-mobile" to="mailto:dvtinh.it@gmail" :class="{ active: isActive('/contact-me') }"
         @click="toggleMobileMenu()">
         _contact-me
       </NuxtLink>

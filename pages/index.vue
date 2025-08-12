@@ -19,12 +19,6 @@
 			</div>
 
 			<div id="info">
-				<span class="action">
-					// complete the game to continue
-				</span>
-				<span :class="{hide: isMobile}">
-					// you can also see it on my Github page
-				</span>
 				<span :class="{hide: !isMobile}">
 					// find my profile on Github:
 				</span>
@@ -33,13 +27,13 @@
 						const
 					</span>
 					<span class="variable-name">
-						githubLink
+						aboutMe
 					</span>
 					<span class="operator">
 						=
 					</span>
-					<a class="string" :href="'https://github.com/' + config.contacts.social.github.user">
-						"https://github.com/{{ config.contacts.social.github.user }}"
+					<a class="string" href="/portfolio/about-me">
+						"/about-me"
 					</a>
 				</p>
 			</div>

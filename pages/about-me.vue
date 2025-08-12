@@ -163,7 +163,7 @@
 
             <div class="flex flex-col overflow-scroll">
               <!-- snippets -->
-              <GistSnippet data-aos="fade-down" v-for="(gist, key) in config.gists" :key="key" :id="gist" />
+              <GistSnippet data-aos="fade-down" />
             </div>
           </div>
 
@@ -278,7 +278,7 @@ export default {
   data() {
     return {
       currentSection: 'professional-info',
-      folder: 'bio',
+      folder: 'experience',
       loading: true,
     }
   },

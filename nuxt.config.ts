@@ -28,9 +28,9 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'A awesome developer portfolio design.' },
+        { hid: 'description', name: 'description', content: 'dvtinh99 fullstask developer' },
         { hid: 'og:title', property: 'og:title', content: siteTitle },
-        { hid: 'og:description', property: 'og:description', content: 'A awesome developer portfolio design.' },
+        { hid: 'og:description', property: 'og:description', content: 'dvtinh99 fullstask developer' },
         { hid: 'og:image', property: 'og:image', content: 'demo-share.jpg' },
         { hid: 'og:url', property: 'og:url', content: 'https://developer-portfolio-v1.netlify.app/' },
         { name: 'theme-color', content: '#010C15' },
