@@ -10,19 +10,19 @@
                 "info": {
                     "experience": {
                         "title": "experience",
-                        "description": "<br>I am a Fullstack Developer with a Bachelor’s degree in Information Technology and over 3 years of experience working in a Japanese enterprise environment. <br><br>Proficient in PHP Laravel and Vue/Nuxt, I have worked on projects ranging from small-scale applications to large-scale systems.<br><br>Experienced in building and deploying microservices architecture, implementing load balancing, and optimizing system performance.<br><br>Skilled in deploying projects to hosting services, VPS, and AWS, as well as maintaining and enhancing existing systems by adding new features.<br><br>I am committed to writing clean, maintainable code and delivering solutions that meet user needs effectively.<br><br>With a strong willingness to learn and a mindset that embraces challenges, I strive to grow both personally and professionally in every project I take on."
+                        "description": "<br>I am a Fullstack Developer with a engineering degree in Information Technology and over 3 years of experience working in a Japanese enterprise environment. <br><br>Proficient in PHP Laravel and Vue/Nuxt, I have worked on projects ranging from small-scale applications to large-scale systems.<br><br>Experienced in building and deploying microservices architecture, implementing load balancing, and optimizing system performance.<br><br>Skilled in deploying projects to hosting services, VPS, and AWS, as well as maintaining and enhancing existing systems by adding new features.<br><br>I am committed to writing clean, maintainable code and delivering solutions that meet user needs effectively.<br><br>With a strong willingness to learn and a mindset that embraces challenges, I strive to grow both personally and professionally in every project I take on."
                     },
                     "hard-skills": {
                         "title": "hard-skills",
-                        "description": "<br>As a front-end developer, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "description": "<br>Backend: PHP 7/8, Laravel (8/9/10), RESTful APIs, Authentication (JWT, Sanctum), Queue, Cronjob <br> Frontend: Vue.js (2/3), Vuex/Pinia, Axios, SPA Architecture <br> Database: MySQL, PostgreSQL, Query Optimization, Indexing <br> DevOps & Tools: Git, Docker, Linux, Nginx, CI/CD, VPS Deployment"
                     },
                     "soft-skills": {
                         "title": "soft-skills",
-                        "description": "<br>I bring more than Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "description": "<br>Strong problem-solving ability<br>Clean and maintainable coding practices<br>Experience working in a Japanese professional environment<br>Detail-oriented and deadline-driven<br>Effective team communication and collaboration<br>Ability to understand business requirements and translate them into technical solutions"
                     },
                     "certification": {
                         "title": "certification",
-                        "description": "<br>670."
+                        "description": "<br>TOEIC: 670."
                     }
                 }
             },
