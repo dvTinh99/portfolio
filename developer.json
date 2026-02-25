@@ -85,42 +85,42 @@
         "1": {
             "title": "Flappy Bird",
             "description": "Clone flappy bird game",
-            "img": "/images/projects/flappy-bird.png",
+            "img": "images/projects/flappy-bird.png",
             "tech": ["HTML", "CSS", "JS"],
             "url": "https://dvtinh99.github.io/flappyBird"
         },
         "2": {
             "title": "Fishing",
             "description": "Clone Fishing game.",
-            "img": "/images/projects/fishing.png",
+            "img": "images/projects/fishing.png",
             "tech": ["HTML", "CSS", "JS"],
             "url": "https://dvtinh99.github.io/game-ban-ca"
         },
         "3": {
             "title": "Commic",
             "description": "FE Commic page.",
-            "img": "/images/projects/comic.png",
+            "img": "images/projects/comic.png",
             "tech": ["Vue"],
             "url": "https://dvtinh99.github.io/nettruyen/"
         },
         "4": {
             "title": "Numerology",
             "description": "Production related to numerology.",
-            "img": "/images/projects/nhan_so_hoc.png",
+            "img": "images/projects/nhan_so_hoc.png",
             "tech": ["PHP", "Laravel"],
             "url": "https://nhansohochieuminh.com/"
         },
         "5": {
             "title": "PC e-commerce",
             "description": "Ecommerce website selling computers.",
-            "img": "/images/projects/msc_shop.png",
+            "img": "images/projects/msc_shop.png",
             "tech": ["PHP", "Wordpress"],
             "url": "https://mscshop.vn"
         },
         "6": {
             "title": "Course Online",
             "description": "LDP sells courses online.",
-            "img": "/images/projects/kho_khoa_hoc.png",
+            "img": "images/projects/kho_khoa_hoc.png",
             "tech": ["Vue", "Nuxt"],
             "url": "https://dvtinh99.github.io/course-online-nuxt/"
         }

@@ -15,7 +15,7 @@
 
             <div class="pb-8 pt-6 px-6 border-top">
                 <p class="text-menu-text font-fira_retina text-sm mb-5">
-                {{ project.description }}
+                {{ project.description + ':' + baseUrl}}
                 </p>
                 <a id="view-button" :href="project.url" target="_blank" class="text-white font-fira_retina py-2 px-4 w-fit text-xs rounded-lg">
                     view-project

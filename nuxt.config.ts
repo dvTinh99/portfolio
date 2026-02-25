@@ -41,7 +41,8 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', href: 'pwa/icons/apple-touch-icon.png' },
       ],
     },
-    baseURL: '/portfolio/'
+    baseURL: '/portfolio/',
+    cdnURL: 'https://dvtinh99.github.io/portfolio'
   },
 
   /**
