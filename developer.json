@@ -54,11 +54,7 @@
                 "info": {
                     "sports": {
                         "title": "sports",
-                        "description": "<br>I am an avid sports enthusiast and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    },
-                    "favorite-games": {
-                        "title": "favorite-games",
-                        "description": "<br>I am a passionate gamer with Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "description": "<br>I am a marathon enthusiast."
                     }
                 }
             }
@@ -88,43 +84,43 @@
     "projects": {
         "1": {
             "title": "Flappy Bird",
-            "description": "flappy bird game",
+            "description": "Clone flappy bird game",
             "img": "/images/projects/flappy-bird.png",
             "tech": ["HTML", "CSS", "JS"],
             "url": "https://dvtinh99.github.io/flappyBird"
         },
         "2": {
             "title": "Fishing",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "description": "Clone Fishing game.",
             "img": "/images/projects/fishing.png",
             "tech": ["HTML", "CSS", "JS"],
             "url": "https://dvtinh99.github.io/game-ban-ca"
         },
         "3": {
             "title": "Commic",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/worldmap.png",
+            "description": "FE Commic page.",
+            "img": "/images/projects/comic.png",
             "tech": ["Vue"],
             "url": "https://dvtinh99.github.io/nettruyen/"
         },
         "4": {
             "title": "Numerology",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/worldmap.png",
+            "description": "Production related to numerology.",
+            "img": "/images/projects/nhan_so_hoc.png",
             "tech": ["PHP", "Laravel"],
             "url": "https://nhansohochieuminh.com/"
         },
         "5": {
             "title": "PC e-commerce",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/worldmap.png",
+            "description": "Ecommerce website selling computers.",
+            "img": "/images/projects/msc_shop.png",
             "tech": ["PHP", "Wordpress"],
             "url": "https://mscshop.vn"
         },
         "6": {
             "title": "Course Online",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "/images/projects/worldmap.png",
+            "description": "LDP sells courses online.",
+            "img": "/images/projects/kho_khoa_hoc.png",
             "tech": ["Vue", "Nuxt"],
             "url": "https://dvtinh99.github.io/course-online-nuxt/"
         }
