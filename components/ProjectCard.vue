@@ -10,7 +10,7 @@
                 <div class="absolute flex right-3 top-3">
                 <img v-for="tech in project.tech" :key="tech" :src="baseUrl + 'icons/techs/filled/' + tech.toLowerCase() + '.svg'" alt="" class="w-6 h-6 mx-1 hover:opacity-75">
                 </div>
-                <img id="showcase" :src="project.img" alt="" class="w-full">
+                <img id="showcase" :src="baseUrl + project.img" alt="" class="w-full">
             </div>
 
             <div class="pb-8 pt-6 px-6 border-top">
